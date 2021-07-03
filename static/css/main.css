@@ -1,0 +1,28 @@
+html { 
+  background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rps1-1583269897.jpg?resize=2048:*) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+body {
+  background-color: grey; 
+}
+
+#container {
+  width: 1000px;
+  height: 400px;
+  margin: 80px auto;
+  border-radius: 8px;
+  display: flex;
+}
+
+h1 {
+  color: white;
+}
+p {
+  color: white;
+}

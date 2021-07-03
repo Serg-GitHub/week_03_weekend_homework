@@ -12,13 +12,7 @@ from models.player import *
 def index():
     return render_template("index.html")
 
-# 
-
-@app.route("/<player_1_choice>")
-def first_choice():
-    # player_1 = Player("Player 1", player_1_choice)
-    # return render_template("base.html", player_1=player_1)
-    return render_template("base.html")
+ 
 
 @app.route("/<player_1_choice>/<player_2_choice>")
 def result(player_1_choice, player_2_choice):
@@ -29,5 +23,8 @@ def result(player_1_choice, player_2_choice):
 
 
     return render_template("scissors.html", result=result)
+
+
+  
     
 
