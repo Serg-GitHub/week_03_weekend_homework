@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<!-- Line 9 calls in the CSS style sheet I have created inside static/css/main.css -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    
 
     
 </head>
 
 <body>
-
+<!-- Lines 16-17 I have created a container and a text box -->
     <div class="container">
         <div class="textbox">
         
@@ -32,7 +32,7 @@
 
 
       {% endif %}
-
+<!-- On line 36 I have created a home anchor url, allowing the player to return to the home index after having made a game choice.-->
       <a href="http://127.0.0.1:5000">Home</a>
 
     </div>

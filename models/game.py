@@ -1,7 +1,10 @@
+# Below I have created a Game class along with an if elif statement which determines the game's outcome
+# depending on the player's choice.
+
 class Game:
    def __init__(self,):
       pass
-# line 6 = Import player class file into this game file from the directory named models
+# line 8 = Import player class file into this game file from the directory named models
 from models.player import *
 
 def decision(player_1, player_2):

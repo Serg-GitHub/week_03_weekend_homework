@@ -8,6 +8,8 @@ from models.game import *
 #  line 9 = The Player class is being imported from the player.py file inside the directory named models
 from models.player import *
 
+# In the lines of code below I've used the app.route wildcard function which calls in the variable to generate the url paths required when entered into the browser.
+
 @app.route("/")
 def index():
     return render_template("index.html")

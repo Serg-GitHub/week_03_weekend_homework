@@ -1,3 +1,5 @@
+/* using CSS code below I've imported a background image as well as resized the flex container - setting width, height, margin, border radius, background colour and opacity*/
+
 html { 
   background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rps1-1583269897.jpg?resize=2048:*) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -7,10 +9,9 @@ html {
   
 }
 
-
-body {
+/* body {
    
-}
+} */
 
 div.container {
   width: 1000px;
@@ -18,12 +19,14 @@ div.container {
   margin: 10px auto;
   border-radius: 8px;
   display: flex;
-  background-color: grey; opacity: 0.4;
+  background-color: grey; opacity: 0.5;
 }
 
 div.container {
   background: rgb(80, 80, 80);
   background: rgb(0, 0, 0); 
+ 
+ 
 }
 
 div.container a {
@@ -31,10 +34,12 @@ div.container a {
   margin: 10px auto;
   display: flex;
   
+  
   color: #fff; 
 }
 
 div.container p {
+ 
   color: #fff;
 }
 
@@ -45,3 +50,4 @@ h1 {
 p {
   color: white;
 }
+
